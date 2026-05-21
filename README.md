@@ -1,6 +1,6 @@
 # Transcript Intelligence
 
-A pretty raw RAG system for asking questions across transcripts — interview recordings, YouTube videos, or any long-form text. Built as a demo for [Great Question](https://greatquestion.co), but the core pipeline works for any transcript-based research company.
+A pretty raw RAG system for asking questions across transcripts, I had some fun and used it for YouTube videos, but any long-form text works. Built as a demo for [Great Question](https://greatquestion.co), but the core pipeline works for any transcript-based research company.
 
 **Stack:** FastAPI · ChromaDB · sentence-transformers · Claude (Anthropic) · React + Vite
 
