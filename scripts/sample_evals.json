@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What are Promeia's best team compositions?",
+    "expected": "Promeia, Nong Yu, and Suna is the best performing team, with Yuzaha as an alternative"
+  },
+  {
+    "question": "What is the skill priority for Promeia?",
+    "expected": "Core passive first, then EX special, then chain and basic evenly, then assist, then dodge"
+  },
+  {
+    "question": "What W-engine should I use if I don't have her signature?",
+    "expected": "Fusion Compiler is about 8% worse, Electro Lip Gloss is 10% worse, Weeping Gemini is the best budget option"
+  },
+  {
+    "question": "What stats should I aim for?",
+    "expected": "Around 2.7k attack, 320-330 anomaly proficiency, and 248 anomaly mastery"
+  },
+  {
+    "question": "What are the pros and cons of pulling for Promeia?",
+    "expected": "Pros: easy to play, high skill ceiling, dedicated disc set. Cons: only one viable disc set, weaker as sub-DPS"
+  }
+]
