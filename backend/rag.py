@@ -11,7 +11,7 @@ from anthropic import Anthropic
 CHUNK_SIZE = 400       # words per chunk
 OVERLAP = 80           # word overlap between chunks
 EMBED_MODEL = "all-MiniLM-L6-v2"
-CLAUDE_MODEL = "claude-sonnet-4-20250514"
+CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 FEEDBACK_LOG = Path("feedback.jsonl")
 
 

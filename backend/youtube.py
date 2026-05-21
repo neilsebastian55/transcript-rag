@@ -18,11 +18,10 @@ def extract_video_id(url: str) -> str:
 
 def fetch_youtube_transcript(url: str) -> tuple[str, str]:
     video_id = extract_video_id(url)
-    transcript_list = YouTubeTranscriptApi.get_transcript(video_id)
-    formatter = TextFormatter()
-    text = formatter.format_transcript(transcript_list)
+    ytt = YouTubeTranscriptApi()
+    transcript_list = ytt.fetch(video_id)
+    text = " ".join(entry.text for entry in transcript_list)
 
-    # Try to get the video title via oembed (no API key needed)
     title = f"YouTube: {video_id}"
     try:
         import urllib.request, json as _json
